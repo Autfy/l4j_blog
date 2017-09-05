@@ -32,5 +32,6 @@ pip install -r  requirement.txt # 安装依赖
 
 更多配置，请参考：http://github.com/tangrela/tumblr_crawler
 
-> ps:http://l4j.us 里面的文章采集自：万能的福利吧（过气论坛）。后期准备加上 1024-技术讨论区
+> ps:http://l4j.us 里面的文章采集自：1）万能的福利吧（过气论坛）; 2）1024-技术讨论区
+
 > 本项目不包含爬虫。如需定制爬虫请联系：video4sexroot@gmail.com
