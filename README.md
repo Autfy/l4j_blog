@@ -7,9 +7,9 @@
 示例网站：http://l4j.us
 
 前端：
-![index](http://ww1.sinaimg.cn/large/67016dd8gy1fj7izc343pj20md0nbwgd.jpg)
+![1.png](1.png)
 后台：
-![bg](http://ww1.sinaimg.cn/large/67016dd8gy1fj7izc6gqaj21h80m6n08.jpg)
+![2.png](2.png)
 ---
 
 # 安装教程：
