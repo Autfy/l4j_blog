@@ -59,10 +59,15 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li id="signin_icon">
-                            <a title="BookMark" style="cursor: pointer;" onclick="addFavorite();"
-                            href="/admin">
+                        {%if current_user.is_authenticated%}
+                            <a title="BookMark" style="cursor: pointer;" href="/admin">
                                 管理
                             </a>
+                        {%else%}
+                            <a title="BookMark" style="cursor: pointer;" href="/auth/login">
+                                登录
+                            </a>
+                        {%endif%}
                         </li>
                         </li>
                     </ul>
