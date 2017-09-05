@@ -23,6 +23,7 @@ pip install -r  requirement.txt # 安装依赖
 以上，应该安装好了python依赖包。
 
 接下来是初始化数据：
+
 0. 在根目录创建一个`logs`文件夹：`mkdir logs`
 1. 首先你应该创建了一个mysql数据库（utf-8格式）,然后修改`config.py`里面的`user`、`passwd`、`db`
 2. 初始化数据库：`python run.py init_data`
