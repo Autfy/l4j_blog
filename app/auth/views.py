@@ -32,10 +32,10 @@ def login():
             if user.id == 1:
                 session['admin'] = True
             session.permanent = True
-            print(u'登陆成功')
+            #print(u'登陆成功')
             return redirect('/')
         else:
-            print(u'邮箱或密码错误')
+            #print(u'邮箱或密码错误')
             return redirect('/')
     return render_template('auth/login.html', form=form)
 
@@ -46,7 +46,7 @@ def logout():
     logout_user()
     session.pop('logged_in', None)
     session.pop('admin', None)
-    print(u'你已经注销！')
+    #print(u'你已经注销！')
     return redirect('/')
 
 
@@ -60,7 +60,7 @@ def register():
         user = User(email=email, username=username,password=password)
         db.session.add(user)
         db.session.commit()
-        print(u'注册成功')
+        #print(u'注册成功')
         return redirect(url_for('auth.login'))
     return render_template('auth/register.html', form=form)
 
