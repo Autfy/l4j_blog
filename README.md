@@ -4,8 +4,6 @@
 1. 前端模板出处：http://ihowandwhy.com
 2. 后台模板出处：http://www.daimajiayuan.com/preview/18152.html
 
-示例网站：http://l47.me
-
 前端：
 ![1.png](1.png)
 后台：
